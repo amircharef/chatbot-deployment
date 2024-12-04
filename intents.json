@@ -8,13 +8,16 @@
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "morning",
+        "good morning",
+        "coucou"
       ],
       "responses": [
         "Hey :-)",
         "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hi there, what can I do for you ?",
+        "Hi there, how can I help ?"
       ]
     },
     {
@@ -23,7 +26,9 @@
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
-        "Bye! Come back again soon."
+        "Have a great day",
+        "Bye! Come back again soon.",
+        "Bye, take care of your self."
       ]
     },
     {
@@ -36,11 +41,70 @@
       "patterns": [
         "Which items do you have?",
         "What kinds of items are there?",
-        "What do you sell?"
+        "What do you sell?",
+        "Can you tell me about the items you offer?",
+        "What products do you have?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "We sell clothes for men, women, and kids.",
+        "We have a wide variety of clothing for men, women, and kids.",
+        "Our store offers clothing for all ages: men, women, and kids."
+      ]
+    },    
+    {
+      "tag": "product_inquiry",
+      "patterns": [
+        "Do you have shirts?",
+        "Do you sell jeans?",
+        "Can you show me men's jackets?",
+        "What sizes are available for dresses?",
+        "Are there any discounts on pants?"
+      ],
+      "responses": [
+        "Yes, we offer a variety of shirts, jeans, and jackets. Would you like to see our collection?",
+        "We have a wide selection of jeans. What size are you looking for?",
+        "Yes, we have men’s jackets available in different sizes and colors. Would you like to check them out?",
+        "Our dresses come in various sizes. Would you like help finding your size?",
+        "We currently have discounts on selected pants. Would you like to explore them?"
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "Can you track my order?",
+        "What is the status of my order?",
+        "When will my order arrive?"
+      ],
+      "responses": [
+        "To check your order status, please contact us.",
+        "You can track your order through the 'My Orders' section on our website.",
+      ]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "Can I return an item?",
+        "What is your return policy?",
+        "How do I exchange a product?",
+        "Can I get a refund?"
+      ],
+      "responses": [
+        "We accept returns within 10 days of purchase.",
+        "Our return policy allows returns within 10 days, as long as the item is in unused condition.",
+        "For exchanges, please contact our support team within 10 days of receiving your item.",
+        "We offer refunds for eligible returns within 10 days."
+      ]
+    },
+    {
+      "tag": "shipping_restrictions",
+      "patterns": [
+        "Do you deliver internationally?",
+        "Can I order from outside the country?",
+        "Do you ship to Europe?"
+      ],
+      "responses": [
+        "Unfortunately, we do not offer international shipping at this time.",
       ]
     },
     {
@@ -49,11 +113,14 @@
         "Do you take credit cards?",
         "Do you accept Mastercard?",
         "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Are you cash only?",
+        "What payment methods do you accept?",
+        "How can I pay for my order?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "Unfortunately, we only accept cash on delivery payments.",
+        "Currently, we only offer cash on delivery as a payment method.",
+        "We only accept payment by cash on delivery for now."
       ]
     },
     {
@@ -61,11 +128,28 @@
       "patterns": [
         "How long does delivery take?",
         "How long does shipping take?",
-        "When do I get my delivery?"
+        "When will my order be delivered?",
+        "How soon can I expect my delivery?",
+        "What is the delivery time?",
+        "When do I receive my shipment?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Delivery typically takes 2-4 business days.",
+        "Shipping usually takes between 2 to 4 days.",
+        "You can expect your delivery within 2 to 4 days.",
+        "We aim to deliver within 2-4 days, depending on your location."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "I don't understand",
+        "Can you help me?",
+        "Sorry, I didn't get that",
+        "What do you mean?"
+      ],
+      "responses": [
+        "Sorry, I didn't understand that. Could you ask something else?",
       ]
     },
     {
@@ -76,8 +160,11 @@
         "Do you know a joke?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Why don’t skeletons fight each other? They don’t have the guts.",
+        "I told my computer I needed a break, and now it won’t stop sending me Kit-Kats!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "Why don’t eggs tell jokes? They might crack up!",
+        "What do you call fake spaghetti? Indomi hahaha!"
       ]
     }
   ]
