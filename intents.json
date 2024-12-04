@@ -78,7 +78,7 @@
       ],
       "responses": [
         "To check your order status, please contact us.",
-        "You can track your order through the 'My Orders' section on our website.",
+        "You can track your order through the 'My Orders' section on our website."
       ]
     },
     {
@@ -104,7 +104,7 @@
         "Do you ship to Europe?"
       ],
       "responses": [
-        "Unfortunately, we do not offer international shipping at this time.",
+        "Unfortunately, we do not offer international shipping at this time."
       ]
     },
     {
@@ -149,7 +149,7 @@
         "What do you mean?"
       ],
       "responses": [
-        "Sorry, I didn't understand that. Could you ask something else?",
+        "Sorry, I didn't understand that. Could you ask something else?"
       ]
     },
     {
